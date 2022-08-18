@@ -1,0 +1,50 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+    // base
+    --font-family: "Open Sans", sans-serif;
+    --content-width: 1130px;
+    --container-offset: 15px;
+    --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+    // colors
+    --light-color: #fff;
+}
+
+.footer-grad {
+    background: linear-gradient(0deg, rgba(42, 169, 21, 0.37) 0%, rgba(42, 169, 21, 0) 100%);
+}
+
+// fonts
+%font-l {
+    font-family: 'Montserrat', sans-serif;
+    ;
+    font-weight: 300;
+}
+
+%font-r {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+%font-m {
+    font-family: 'Montserrat', sans-serif;
+    ;
+    font-weight: 500;
+}
+
+%font-b {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+//font color
+$fc100:#062010;
+$fc200:#2AA915;
+$fc300:#000;
+$fc400:#EF3581;
+$fc500:#FBE4EE;
+$fc600:#F2F2F2;
+$fc700:#262626;
+$fc800:#373737;
+$fc900:#484848;
+$default:#FFFFFF;

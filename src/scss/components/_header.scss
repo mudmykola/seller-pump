@@ -1,0 +1,43 @@
+.header {
+    background-image: url('/img/header-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    &-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 21px;
+    }
+    &-top__menu {
+        ul {
+            display: flex;
+            align-items: center;
+        }
+        li+li {
+            margin-left: 56px;
+        }
+        a {
+            font-size: 18px;
+            line-height: 22px;
+            color: $fc100;
+            @extend %font-r;
+            transition: all 0.5s ease-out;
+        }
+        a:hover {
+            opacity: 0.7;
+            transition: all 0.3s ease-out
+        }
+    }
+    &-top__btn {
+        button {
+            transition: all 0.4s ease-out;
+        }
+        button:hover {
+            background: rgba(191, 188, 184, 0.44);
+            border-radius: 8px;
+            transition: all 0.3s ease-out;
+        }
+    }
+}
