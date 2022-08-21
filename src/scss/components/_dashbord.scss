@@ -1,0 +1,88 @@
+.dashbord {
+    &-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-inner__chart {
+        // width: 473px;
+        // height: 505px;
+        box-shadow: 0px 0px 31px rgba(177, 177, 177, 0.2);
+        border-radius: 36px;
+    }
+    &-chart {
+        padding: 43px;
+        ul {
+            display: flex;
+            align-items: flex-end;
+        }
+        li+li {
+            margin-left: 56px;
+        }
+        &__box {
+            background: linear-gradient(94.04deg, #30C917 1.24%, #279A13 98.27%);
+            border-radius: 12px 12px 4px 4px;
+            width: 66px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            h2 {
+                @extend %font-m;
+                font-size: 18px;
+                line-height: 22px;
+                color: $default;
+            }
+        }
+        &__item--sub {
+            margin-top: 10px;
+            text-align: center;
+            width: 100%;
+            height: 20px;
+            font-size: 18px;
+            line-height: 22px;
+            color: #7A7A7A;
+        }
+        &__item {
+            width: 60px;
+        }
+    }
+    &-inner__cont {
+        h3 {
+            @extend %font-b;
+            font-size: 48px;
+            line-height: 59px;
+            color: $fc100;
+            margin-bottom: 12px;
+        }
+        p {
+            @extend %font-m;
+            font-size: 20px;
+            line-height: 30px;
+            color: #676767;
+        }
+        li+li {
+            margin-top: 33px;
+        }
+        ul {
+            margin-top: 51px;
+        }
+        li {
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 4px 28px rgba(27, 17, 8, 0.06);
+            border-radius: 64px 24px 24px 64px;
+            p {
+                @extend %font-m;
+                font-size: 22px;
+                line-height: 27px;
+                color: $fc100;
+                margin: 0 133px 0 24px;
+                transition: all 0.5s linear;
+            }
+        }
+        li:hover {
+            box-shadow: 0px 4px 28px rgba(12, 7, 1, 0.08);
+            transition: all 0.3s linear;
+        }
+    }
+}

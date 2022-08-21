@@ -48,3 +48,8 @@ $fc700:#262626;
 $fc800:#373737;
 $fc900:#484848;
 $default:#FFFFFF;
+//chart hover
+%chart-h {
+    -webkit-box-shadow: 13px 3px 14px -7px #F2F2F2;
+    box-shadow: 13px 3px 14px -7px #F2F2F2;
+}

@@ -127,3 +127,47 @@ a {
     color: $default;
     cursor: pointer;
 }
+
+.dashbord-chart__box--h1 {
+    height: 296px;
+    display: inline-block;
+    transition: all 0.5s linear;
+}
+
+.dashbord-chart__box--h2 {
+    height: 451px;
+    display: inline-block;
+    transition: all 0.5s linear;
+}
+
+.dashbord-chart__box--h3 {
+    height: 188px;
+    display: inline-block;
+    transition: all 0.5s linear;
+}
+
+.dashbord-chart__box--h4 {
+    height: 363px;
+    display: inline-block;
+    transition: all 0.5s linear;
+}
+
+.dashbord-chart__box--h1:hover {
+    @extend %chart-h;
+    transition: all 0.3s linear;
+}
+
+.dashbord-chart__box--h2:hover {
+    @extend %chart-h;
+    transition: all 0.3s linear;
+}
+
+.dashbord-chart__box--h3:hover {
+    @extend %chart-h;
+    transition: all 0.3s linear;
+}
+
+.dashbord-chart__box--h4:hover {
+    @extend %chart-h;
+    transition: all 0.3s linear;
+}

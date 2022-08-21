@@ -1,0 +1,59 @@
+.video {
+    background-image: url('/img/video-bg.webp');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+    padding-top: 50px;
+    &-inner {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 149px;
+    }
+    iframe {
+        width: 900px;
+        height: 581px;
+        border-radius: 24px;
+    }
+    &-el {
+        position: absolute;
+        bottom: -80%;
+        z-index: -1;
+    }
+}
+
+// 768
+@media (max-width: 768px) {
+    .video {
+        &-el {
+            display: none;
+        }
+    }
+}
+
+// 600
+@media (max-width: 600px) {
+    .video {
+        &-el {
+            display: none;
+        }
+    }
+}
+
+// 480
+@media (max-width: 480px) {
+    .video {
+        &-el {
+            display: none;
+        }
+    }
+}
+
+// 320
+@media (max-width: 320px) {
+    .video {
+        &-el {
+            display: none;
+        }
+    }
+}
