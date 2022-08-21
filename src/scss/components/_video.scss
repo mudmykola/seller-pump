@@ -25,6 +25,7 @@
 // 768
 @media (max-width: 768px) {
     .video {
+        display: none;
         &-el {
             display: none;
         }
@@ -34,6 +35,7 @@
 // 600
 @media (max-width: 600px) {
     .video {
+        display: none;
         &-el {
             display: none;
         }
@@ -43,6 +45,7 @@
 // 480
 @media (max-width: 480px) {
     .video {
+        display: none;
         &-el {
             display: none;
         }
@@ -52,6 +55,7 @@
 // 320
 @media (max-width: 320px) {
     .video {
+        display: none;
         &-el {
             display: none;
         }

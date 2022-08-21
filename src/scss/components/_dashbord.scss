@@ -86,3 +86,221 @@
         }
     }
 }
+
+// 768
+@media (max-width: 768px) {
+    .dashbord {
+        &-inner {
+            flex-direction: column;
+            // width: 480px;
+        }
+        &-inner__chart {
+            padding: 43px;
+            margin-top: 40px;
+        }
+        &-chart {
+            // padding: 0;
+        }
+        &-chart__item {
+            width: 25px;
+            &--sub {
+                margin-top: 6px;
+                font-size: 12px;
+                line-height: 16px;
+            }
+        }
+        &-chart__box {
+            width: 50px;
+            border-radius: 10px 10px 2px 2px;
+            h2 {
+                font-size: 13px;
+                line-height: 20px;
+            }
+        }
+        &-inner__cont {
+            margin-top: 50px;
+            h3 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 20px;
+            }
+            img {
+                width: 70px;
+                height: 70px;
+            }
+            li {
+                P {
+                    font-size: 17px;
+                    line-height: 19px;
+                    margin: 0 24px 0 24px;
+                }
+            }
+        }
+    }
+}
+
+// 600
+@media (max-width: 600px) {
+    .dashbord {
+        &-inner {
+            flex-direction: column;
+            // width: 480px;
+        }
+        &-inner__chart {
+            padding: 43px;
+        }
+        &-chart {
+            // padding: 0;
+        }
+        &-chart__item {
+            width: 25px;
+            &--sub {
+                margin-top: 6px;
+                font-size: 12px;
+                line-height: 16px;
+            }
+        }
+        &-chart__box {
+            width: 50px;
+            border-radius: 10px 10px 2px 2px;
+            h2 {
+                font-size: 13px;
+                line-height: 20px;
+            }
+        }
+        &-inner__cont {
+            margin-top: 50px;
+            h3 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 20px;
+            }
+            img {
+                width: 70px;
+                height: 70px;
+            }
+            li {
+                P {
+                    font-size: 17px;
+                    line-height: 19px;
+                    margin: 0 24px 0 24px;
+                }
+            }
+        }
+    }
+}
+
+// 480
+@media (max-width: 480px) {
+    .dashbord {
+        &-inner {
+            flex-direction: column;
+            // width: 480px;
+        }
+        &-inner__chart {
+            padding: 43px;
+        }
+        &-chart {
+            // padding: 0;
+        }
+        &-chart__item {
+            width: 25px;
+            &--sub {
+                margin-top: 6px;
+                font-size: 12px;
+                line-height: 16px;
+            }
+        }
+        &-chart__box {
+            width: 50px;
+            border-radius: 10px 10px 2px 2px;
+            h2 {
+                font-size: 13px;
+                line-height: 20px;
+            }
+        }
+        &-inner__cont {
+            margin-top: 50px;
+            h3 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 20px;
+            }
+            img {
+                width: 70px;
+                height: 70px;
+            }
+            li {
+                P {
+                    font-size: 17px;
+                    line-height: 19px;
+                    margin: 0 24px 0 24px;
+                }
+            }
+        }
+    }
+}
+
+// 320
+@media (max-width: 320px) {
+    .dashbord {
+        &-inner {
+            flex-direction: column;
+            width: 320px;
+        }
+        &-inner__chart {
+            width: 300px;
+        }
+        &-chart {
+            padding: 0;
+            margin-top: 40px;
+        }
+        &-chart__item {
+            width: 10px;
+            &--sub {
+                margin-top: 6px;
+                font-size: 12px;
+                line-height: 16px;
+            }
+        }
+        &-chart__box {
+            width: 40px;
+            border-radius: 10px 10px 2px 2px;
+            h2 {
+                font-size: 13px;
+                line-height: 20px;
+            }
+        }
+        &-inner__cont {
+            margin-top: 50px;
+            h3 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 20px;
+            }
+            img {
+                width: 70px;
+                height: 70px;
+            }
+            li {
+                P {
+                    font-size: 17px;
+                    line-height: 19px;
+                    margin: 0 24px 0 24px;
+                }
+            }
+        }
+    }
+}
