@@ -5,8 +5,6 @@
         justify-content: space-between;
     }
     &-inner__chart {
-        // width: 473px;
-        // height: 505px;
         box-shadow: 0px 0px 31px rgba(177, 177, 177, 0.2);
         border-radius: 36px;
     }
@@ -81,7 +79,7 @@
             }
         }
         li:hover {
-            box-shadow: 0px 4px 28px rgba(12, 7, 1, 0.08);
+            box-shadow: 0px 4px 28px rgba(12, 7, 1, 0.1);
             transition: all 0.3s linear;
         }
     }
