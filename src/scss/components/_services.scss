@@ -106,13 +106,126 @@
 }
 
 // 768
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .services {
+        &-list__top {
+            p {
+                padding: 0 5px 0;
+                font-size: 15px;
+                line-height: 18px;
+            }
+        }
+        &-list__bottom {
+            p {
+                padding: 0 5px 0;
+                font-size: 15px;
+                line-height: 18px;
+            }
+        }
+    }
+}
 
 // 600
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+    .services {
+        &-inner {
+            padding-top: 125px;
+            h3 {
+                margin-bottom: 50px;
+            }
+        }
+        &-list__top {
+            flex-direction: column;
+            li {
+                width: 360px;
+            }
+            li+li {
+                margin-left: 0;
+                margin-top: 24px;
+            }
+        }
+        &-list__bottom {
+            flex-direction: column;
+            li {
+                width: 360px;
+            }
+            li+li {
+                margin-left: 0;
+                margin-top: 24px;
+            }
+        }
+        &-inner__btn {
+            margin-top: 40px;
+        }
+    }
+}
 
 // 480
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .services {
+        &-inner {
+            padding-top: 125px;
+            h3 {
+                margin-bottom: 50px;
+            }
+        }
+        &-list__top {
+            flex-direction: column;
+            li {
+                width: 360px;
+            }
+            li+li {
+                margin-left: 0;
+                margin-top: 24px;
+            }
+        }
+        &-list__bottom {
+            flex-direction: column;
+            li {
+                width: 360px;
+            }
+            li+li {
+                margin-left: 0;
+                margin-top: 24px;
+            }
+        }
+        &-inner__btn {
+            margin-top: 40px;
+        }
+    }
+}
 
 // 320
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+    .services {
+        &-inner {
+            padding-top: 125px;
+            h3 {
+                margin-bottom: 50px;
+            }
+        }
+        &-list__top {
+            flex-direction: column;
+            li {
+                width: 300px;
+            }
+            li+li {
+                margin-left: 0;
+                margin-top: 24px;
+            }
+        }
+        &-list__bottom {
+            flex-direction: column;
+            li {
+                width: 300px;
+            }
+            li+li {
+                margin-left: 0;
+                margin-top: 24px;
+            }
+        }
+        &-inner__btn {
+            margin-top: 40px;
+        }
+    }
+}

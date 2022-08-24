@@ -253,10 +253,9 @@
     .dashbord {
         &-inner {
             flex-direction: column;
-            width: 320px;
         }
         &-inner__chart {
-            width: 300px;
+            width: 320px;
         }
         &-chart {
             padding: 0;
