@@ -1,6 +1,7 @@
 .services {
     &-inner {
         padding-top: 199px;
+        position: relative;
         h3 {
             @extend %font-b;
             font-size: 48px;
@@ -13,6 +14,20 @@
                 @extend %font-b;
             }
         }
+    }
+    &-inner::before {
+        background-image: url('/img/svg/services-el.svg');
+        content: "";
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 300px;
+        display: inline-block;
+        background-size: cover;
+        background-position: center;
+        top: 25px;
+        bottom: 0;
+        right: -59px;
+        position: absolute;
     }
     &-list__top {
         display: flex;
