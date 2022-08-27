@@ -70,13 +70,69 @@
 }
 
 // 768
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .info {
+        &-inner {
+            margin: 100px 0 120px;
+            li {
+                margin-right: 10px;
+            }
+            li+li {
+                margin-left: 0;
+            }
+        }
+    }
+}
 
 // 600
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+    .info {
+        &-inner {
+            margin: 100px 0 120px;
+            li {
+                margin-right: 10px;
+            }
+            li+li {
+                margin-left: 0;
+            }
+        }
+    }
+}
 
 // 480
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .info {
+        &-inner {
+            margin: 100px 0 120px;
+            h3 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            li {
+                margin-right: 10px;
+            }
+            li+li {
+                margin-left: 0;
+            }
+        }
+    }
+}
 
 // 320
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+    .info {
+        &-inner {
+            margin: 100px 0 120px;
+            h3 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            li+li {
+                margin-left: 0;
+            }
+        }
+        &-inner:before {
+            display: none;
+        }
+    }
+}
