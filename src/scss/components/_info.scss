@@ -51,6 +51,7 @@
             border: 2px solid rgba(15, 70, 5, 0.2);
             box-shadow: 0px 4px 28px rgba(64, 46, 30, 0.08);
             transition: all 0.3s linear;
+            background: rgba(42, 169, 21, 0.18);
         }
     }
     &-inner::before {
@@ -64,7 +65,6 @@
         background-position: center;
         bottom: -55%;
         left: -10%;
-        // top: 0;
         position: absolute;
     }
 }

@@ -46,6 +46,7 @@
         li:hover {
             box-shadow: 0px 4px 28px rgba(8, 5, 3, 0.1);
             transition: all 0.3s linear;
+            background: rgba(42, 169, 21, 0.18);
         }
         li+li {
             margin-left: 24px;
@@ -88,6 +89,7 @@
         li:hover {
             box-shadow: 0px 4px 28px rgba(8, 5, 3, 0.1);
             transition: all 0.3s linear;
+            background: rgba(42, 169, 21, 0.18);
         }
         li+li {
             margin-left: 24px;
@@ -117,6 +119,15 @@
         display: flex;
         justify-content: center;
         margin-top: 80px;
+        button {
+            transition: all 0.5s linear;
+        }
+    }
+    &-inner__btn button:hover {
+        background: linear-gradient(94.04deg, rgba(48, 201, 23, 0.12) 1.24%, rgba(39, 154, 19, 0.12) 98.27%);
+        border: 2px solid $fc200;
+        color: $fc200;
+        transition: all 0.3s linear;
     }
 }
 
