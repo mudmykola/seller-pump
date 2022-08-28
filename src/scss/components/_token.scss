@@ -1,0 +1,351 @@
+.token {
+    &-inner__card {
+        position: relative;
+        margin-top: 170px;
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        li {
+            width: 552px;
+            background: #BBDBB5;
+            box-shadow: 0px 4px 28px rgba(27, 17, 8, 0.06);
+            border-radius: 24px;
+            transition: all 0.5s linear;
+        }
+        li:hover {
+            background: #8aaf83;
+            box-shadow: 0px 4px 28px rgba(27, 17, 8, 0.8);
+            transition: all 0.3s linear;
+        }
+    }
+    &-inner__cont {
+        position: relative;
+        padding: 168px 64px 32px 30px;
+        h2 {
+            @extend%font-sb;
+            font-size: 40px;
+            line-height: 50px;
+            color: $default;
+            margin-bottom: 16px;
+        }
+        p {
+            @extend%font-m;
+            font-size: 20px;
+            line-height: 26px;
+            color: $default;
+            margin-bottom: 32px;
+        }
+        button {
+            width: 177px;
+            height: 56px;
+            transition: all 0.5s linear;
+        }
+        button:hover {
+            background: rgba(42, 169, 21, 0.18);
+            color: $default;
+            transition: all 0.3s linear;
+        }
+    }
+    &-inner__cont::after {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        background-image: url('/img/token-icon-1.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 271px;
+        height: 223px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+    &-inner__cont--el {
+        position: relative;
+        padding: 168px 64px 32px 30px;
+        h2 {
+            @extend%font-sb;
+            font-size: 40px;
+            line-height: 50px;
+            color: $default;
+            margin-bottom: 16px;
+        }
+        p {
+            @extend%font-m;
+            font-size: 20px;
+            line-height: 26px;
+            color: $default;
+            margin-bottom: 32px;
+        }
+        button {
+            width: 177px;
+            height: 56px;
+            transition: all 0.5s linear;
+        }
+        button:hover {
+            background: rgba(42, 169, 21, 0.18);
+            color: $default;
+            transition: all 0.3s linear;
+        }
+    }
+    &-inner__cont--el::after {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        background-image: url('/img/token-icon-2.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 271px;
+        height: 223px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+    &-buy {
+        position: relative;
+        margin-top: 189px;
+        background: linear-gradient(0deg, rgba(42, 169, 21, 0.37) 0%, rgba(42, 169, 21, 0) 100%);
+    }
+    &-buy__inner {
+        ul {
+            padding-bottom: 101px;
+        }
+        span {
+            color: $fc200;
+            margin-right: 10px;
+        }
+        li {
+            width: 260px;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            margin-top: 40px;
+            background: linear-gradient(94.35deg, rgba(255, 255, 255, 0.57) 0%, rgba(255, 255, 255, 0.71) 0.01%, rgba(255, 255, 255, 0.06) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0px 4px 28px rgba(27, 17, 8, 0.06);
+            border-radius: 80px;
+            img {
+                width: 72px;
+            }
+            button {
+                border: none;
+                background: linear-gradient(94.04deg, #30C917 1.24%, #279A13 98.27%);
+                border-radius: 37px;
+                color: $default;
+                padding: 13px 10px 13px 16px;
+                height: 46px;
+                @extend%font-m;
+                font-size: 16px;
+                line-height: 20px;
+                margin-left: 25px;
+                transition: all 0.5s linear;
+                cursor: pointer;
+                span {
+                    background-image: url('/img/svg/token-buy-2.svg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    display: inline-block;
+                    text-align: center;
+                    width: 9px;
+                    height: 16px;
+                    margin-left: 12px;
+                }
+            }
+            button:hover {
+                box-shadow: 0px 4px 28px rgba(8, 5, 3, 0.4);
+                transition: all 0.3s linear;
+            }
+        }
+    }
+    &-buy:after {
+        content: "";
+        position: absolute;
+        background-image: url('/img/token-el.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 450px;
+        height: 500px;
+        display: block;
+        top: -95%;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+// 768
+@media (max-width: 768px) {
+    .token {
+        &-inner__card {
+            li {
+                width: 335px;
+            }
+        }
+    }
+}
+
+// 600
+@media (max-width: 600px) {
+    .token {
+        &-inner__card {
+            margin-top: 125px;
+            ul {
+                flex-direction: column;
+            }
+            li {
+                width: 100%;
+            }
+            li+li {
+                margin-top: 25px;
+            }
+        }
+        &-inner__cont {
+            h2 {
+                font-size: 32px;
+                line-height: 42px;
+                margin-bottom: 4px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 19px;
+                margin-bottom: 20px;
+            }
+        }
+        &-inner__cont--el {
+            h2 {
+                font-size: 32px;
+                line-height: 42px;
+                margin-bottom: 4px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 19px;
+                margin-bottom: 20px;
+            }
+        }
+        &-buy {
+            margin-top: 100px;
+            &__inner {
+                h3 {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+        }
+        &-buy::after {
+            display: none;
+        }
+    }
+}
+
+// 480
+@media (max-width: 480px) {
+    .token {
+        &-inner__card {
+            margin-top: 125px;
+            ul {
+                flex-direction: column;
+            }
+            li {
+                width: 100%;
+            }
+            li+li {
+                margin-top: 25px;
+            }
+        }
+        &-inner__cont {
+            h2 {
+                font-size: 32px;
+                line-height: 42px;
+                margin-bottom: 4px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 19px;
+                margin-bottom: 20px;
+            }
+        }
+        &-inner__cont--el {
+            h2 {
+                font-size: 32px;
+                line-height: 42px;
+                margin-bottom: 4px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 19px;
+                margin-bottom: 20px;
+            }
+        }
+        &-buy {
+            margin-top: 100px;
+            &__inner {
+                h3 {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+        }
+        &-buy::after {
+            display: none;
+        }
+    }
+}
+
+// 320
+@media (max-width: 320px) {
+    .token {
+        &-inner__card {
+            margin-top: 125px;
+            ul {
+                flex-direction: column;
+            }
+            li {
+                width: 100%;
+            }
+            li+li {
+                margin-top: 25px;
+            }
+        }
+        &-inner__cont {
+            h2 {
+                font-size: 32px;
+                line-height: 42px;
+                margin-bottom: 4px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 19px;
+                margin-bottom: 20px;
+            }
+        }
+        &-inner__cont--el {
+            h2 {
+                font-size: 32px;
+                line-height: 42px;
+                margin-bottom: 4px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 19px;
+                margin-bottom: 20px;
+            }
+        }
+        &-buy {
+            margin-top: 100px;
+            &__inner {
+                h3 {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+        }
+        &-buy::after {
+            display: none;
+        }
+    }
+}
