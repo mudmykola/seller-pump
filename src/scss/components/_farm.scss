@@ -186,6 +186,7 @@
         &-box__text {
             img {
                 width: 86px;
+                margin-right: 10px;
             }
         }
         &-box__sub {
@@ -237,10 +238,9 @@
         &-box__el {
             display: none;
         }
-        &-box__text {
-            img {
-                width: 48px;
-            }
+        &-box__text--img {
+            width: 48px;
+            margin-right: 10px;
         }
         &-box__sub {
             h2 {

@@ -115,6 +115,9 @@
                 margin-left: 0;
             }
         }
+        &-inner::before {
+            display: none;
+        }
     }
 }
 
