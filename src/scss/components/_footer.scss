@@ -1,0 +1,112 @@
+.footer {
+    background: $fc700;
+    &-inner {
+        padding-top: 46px;
+        h3 {
+            color: $default;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 59px;
+        }
+        li {
+            background: #373737;
+            border: 1px solid #484848;
+            box-shadow: 0px 4px 28px rgba(27, 17, 8, 0.06);
+            border-radius: 38px;
+            width: 168px;
+            cursor: pointer;
+            transition: all 0.5s linear;
+        }
+        li+li {
+            margin-left: 15px;
+        }
+        li:hover {
+            box-shadow: 0px 4px 28px rgba(227, 223, 220, 0.7);
+            transition: all 0.3s linear;
+        }
+        a {
+            display: flex;
+            align-items: center;
+            color: $default;
+        }
+        img {
+            padding: 8px 0px 8px 12px;
+        }
+        p {
+            @extend%font-sb;
+            margin-left: 12px;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    &-inner__copy {
+        text-align: center;
+        padding: 50px 0 46px;
+        h2 {
+            @extend%font-sb;
+            font-size: 18px;
+            line-height: 22px;
+            color: $default;
+        }
+    }
+}
+
+// 600
+@media (max-width: 600px) {
+    .footer {
+        &-inner {
+            h3 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            ul {
+                flex-direction: column;
+            }
+            li+li {
+                margin-left: 0;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+// 480
+@media (max-width: 480px) {
+    .footer {
+        &-inner {
+            h3 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            ul {
+                flex-direction: column;
+            }
+            li+li {
+                margin-left: 0;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+// 320
+@media (max-width: 320px) {
+    .footer {
+        &-inner {
+            h3 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            ul {
+                flex-direction: column;
+            }
+            li+li {
+                margin-left: 0;
+                margin-top: 25px;
+            }
+        }
+    }
+}
